@@ -1,5 +1,5 @@
 build:
-	go build DoggosPkg 
+	go build doggos 
 test:
 	go test -v  -coverpkg=./... ./... -coverprofile cover.out 
 calculate-coverage:
