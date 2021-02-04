@@ -16,4 +16,4 @@ RUN go install -v ./...
 EXPOSE 9090
 
 # Run the executable
-CMD ["DoggosPkg"]
+CMD ["doggos"]
